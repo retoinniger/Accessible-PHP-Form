@@ -12,7 +12,7 @@ if (!$error) {
 }
 ?>
 <!doctype html>
-<html>
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <title>Kontaktformular - Vorlage</title>
