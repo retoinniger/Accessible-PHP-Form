@@ -7,7 +7,8 @@ $message = "Vorname: " .$_POST['forename']."\n"
 	."Plz: " .$_POST['zip']. "\n"
 	."Ort: " .$_POST['city']. "\n"
 	."E-Mail: " .$_POST['email']. "\n"
-	."Telefon: " .$_POST['phone']. "\n";
+	."Telefon: " .$_POST['phone']. "\n"
+	."Mitteilung: " .$_POST['remark']. "\n";
 $header = "From:example@example.com\nX-Mailer:PHPmail()\nX-Priority:1\nMSMail-Priority:high";
 
 $send = mail($to, $subject, $message, $header);
