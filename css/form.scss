@@ -47,10 +47,13 @@ textarea {
 	}
 }
 .error {
-	display: inline-block;
+	display: block;
 	color: #DB0003;
 	font-size: 1rem;
 	font-weight: bold;
+	background-color: #FCC2C7;
+	padding: .5rem;
+	width: 50%;
 	}
 /* Accessibility Styles */
 .hideme {
