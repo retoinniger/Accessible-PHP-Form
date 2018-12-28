@@ -42,8 +42,8 @@ echo<<<FORM
 			{$error['phone']}
 		</div>
 		<div>
-			<label for="remark">Mitteilung<span class="hideme">Pflichtfeld</span></label>
-			<textarea name="remark" class="{$css['remark']}" id="remark" aria-describedby="error8" row="4">{$_POST['remark']}</textarea>
+			<label for="remark">Mitteilung*<span class="hideme">Pflichtfeld</span></label>
+			<textarea name="remark" class="{$css['remark']}" id="remark" aria-describedby="error8" rows="4">{$_POST['remark']}</textarea>
 			{$error['remark']}
 		</div>
     <input type="submit" name="submit" id="submit" value="Senden"/>
